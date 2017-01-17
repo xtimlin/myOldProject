@@ -1,0 +1,22 @@
+body{
+	background: #232323;
+}
+
+.square{
+	
+    width: 30%;
+    padding-bottom: 30%;
+    background-color: rgb(255,0,255);
+    float:left;
+    margin: 1.66%;
+}
+
+#container{
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.center{
+	text-align: center;
+	color: white;
+}
