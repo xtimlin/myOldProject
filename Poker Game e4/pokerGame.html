@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poker Game</title>
+	<link rel="stylesheet" type="text/css" href="pokerGame.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+	
+
+	<div class="container">
+		<div class="jumbotron lightGray">
+		  <h1 class="setFontColor">Poker Game By XingHua Lin</h1>
+		  <a href="https://en.wikipedia.org/wiki/List_of_poker_hand_categories">Rules</a>
+		  <p>A sample game play scenario</p>
+		  <ol>
+		  	<li>How many players will be participating this game? (2-4)</li>
+		  		<ul><li class="Ptag">Loop prompt user when load-in the page</li></ul>
+		  	<li>Game starts with (number of players entered) players</li>
+		  		<ul><li class="Ptag">From first step</li></ul>
+		  	<li>Create a new deck of cards</li>
+		  		<ul><li class="Ptag">Do it after user input number of player</li></ul>
+		  	<li>Shuffle the deck</li>
+		  		<ul><li class="Ptag">Do it after user input number of player follow by step 3</li></ul>
+		  	<li>Deal one card to each player in turns until every player has 5 cards in hand</li>
+		  		<ul><li class="Ptag">It does not show to send card one by one but send card one by one in backend</li></ul>
+		  	<li>Display what card each player holds</li>
+		  		<ul><li class="Ptag">Display Function</li></ul>
+		  	<li>Declares the winner</li>
+		  		<ul><li class="Ptag">Alert and winner background change</li></ul>
+		  	<li>Continue? (Y/N)</li>
+		  		<ul>
+		  			<li class="Ptag">Build-in Confirm Windows(need to updata to jQuery UI Dialog box)</li>
+		  			<li class="Ptag">Change this to button because the confirm go too fast(not enought time the display in last step)</li>
+		  		</ul>
+		  	<li>In case the game continues, use the undealt cards to play the next game. When all cards are dealt, reshuffle the whole deck.</li>
+		  		<ul><li class="Ptag">reshuffle() function</li></ul>
+		  </ol>
+
+		  <h1 id="winnerid">Winner: Pending</h1>
+		  <div>
+		  	<p>Step 1: <button id="sendPokerCard">Send Card</button></p>
+		  </div>
+		  
+		  <div>
+		  	<p>Step 2: <button id="getwinner">Find Winner</button></p>
+		  </div>
+	</div>
+
+
+
+
+
+	<div class="container">
+		<div id="winner1">
+			<p id="player1"></p>
+
+			<div class="row">
+			  <div class="col-md-12">
+			      <img id="p11" src="whitecard.png">
+			      <img id="p12" src="whitecard.png">
+			      <img id="p13" src="whitecard.png">
+			      <img id="p14" src="whitecard.png">
+			      <img id="p15" src="whitecard.png">
+			      <h3 id="player1result"></h3>
+			  </div>
+			</div>
+		</div>
+
+
+		<div id="winner2">
+			<p id="player2"></p>
+			<div class="row">
+			  <div class="col-md-12">
+			      <img id="p21" src="whitecard.png">
+			      <img id="p22" src="whitecard.png">
+			      <img id="p23" src="whitecard.png">
+			      <img id="p24" src="whitecard.png">
+			      <img id="p25" src="whitecard.png">
+			      <h3 id="player2result"></h3>
+			  </div>
+			</div>
+		</div>
+
+
+		<div id="winner3">
+			<p id="player3"></p>
+			<div class="row">
+			  <div class="col-md-12">
+			      <img id="p31" src="whitecard.png">
+			      <img id="p32" src="whitecard.png">
+			      <img id="p33" src="whitecard.png">
+			      <img id="p34" src="whitecard.png">
+			      <img id="p35" src="whitecard.png">
+			      <h3 id="player3result"></h3>
+			  </div>
+			</div>
+		</div>
+
+		<div id="winner4">
+			<p id="player4"></p>
+			<div class="row">
+			  <div class="col-md-12">
+			      <img id="p41" src="whitecard.png">
+			      <img id="p42" src="whitecard.png">
+			      <img id="p43" src="whitecard.png">
+			      <img id="p44" src="whitecard.png">
+			      <img id="p45" src="whitecard.png">
+			      <h3 id="player4result"></h3>
+			  </div>
+			</div>
+		</div>
+
+
+
+	
+</body>
+<script type="text/javascript" src="pokerGame.js"></script>
+</html>

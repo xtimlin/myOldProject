@@ -1,0 +1,22 @@
+li{
+	font-size: 30px;
+	margin-left: 2cm;
+	/*background-color: yellow;*/
+}
+
+.done{
+	text-decoration : line-through;
+}
+
+.leftspace{
+	margin-left: 2cm;
+}
+
+#noButton{
+	padding-top: 0cm;
+	padding-bottom: 0cm;
+}
+
+#alignRight{
+	text-align: right;
+}
