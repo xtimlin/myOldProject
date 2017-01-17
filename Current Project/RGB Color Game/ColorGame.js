@@ -27,12 +27,13 @@ var lis = document.querySelectorAll(".square");
 for(var i = 0; i < lis.length; i++){
 	lis[i].addEventListener("click", function(){
 		
-		if(this.id == num){
-			result.innerText = "you got it!!";
-		}else{
-			result.innerText = "try again!!";
+		alert(this.style.backgroundColor);
+		// if(this.id == num){
+		// 	result.innerText = "you got it!!";
+		// }else{
+		// 	result.innerText = "try again!!";
 			
-		}
+		// }
 	});
 }
 
