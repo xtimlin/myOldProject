@@ -4,7 +4,7 @@ var blueValue = 0;
 
 var squares = document.querySelectorAll(".square");
 var rgbColor = [];
-var result = document.getElementById("result");
+var message = document.getElementById("message");
 
 for(var i = 0; i < squares.length; i++){
 	redValue = Math.floor(Math.random() * 255);
@@ -13,7 +13,7 @@ for(var i = 0; i < squares.length; i++){
 
 	rgbColor.push({"red" : redValue, "green" : greenValue, "blue" : blueValue});
 	squares[i].style.backgroundColor = 'rgb(' + redValue + ',' + greenValue + ',' + blueValue + ')';
-	console.log("RGB(" + rgbColor[i].red + ", " + rgbColor[i].green + ", " + rgbColor[i].blue + ")");
+	// console.log("RGB(" + rgbColor[i].red + ", " + rgbColor[i].green + ", " + rgbColor[i].blue + ")");
 
 }
 
@@ -21,23 +21,26 @@ for(var i = 0; i < squares.length; i++){
 var num = Math.floor(Math.random() * 6);
 var guessValue = document.getElementById("guessValue");
 
-guessValue.textContent = "RGB(" + rgbColor[num].red + ", " + rgbColor[num].green + ", " + rgbColor[num].blue + ")";
+guessValue.textContent = "rgb(" + rgbColor[num].red + ", " + rgbColor[num].green + ", " + rgbColor[num].blue + ")";
 
 var lis = document.querySelectorAll(".square");
 for(var i = 0; i < lis.length; i++){
 	lis[i].addEventListener("click", function(){
-		
-		alert(this.style.backgroundColor);
-		// if(this.id == num){
-		// 	result.innerText = "you got it!!";
-		// }else{
-		// 	result.innerText = "try again!!";
-			
-		// }
+
+		if(this.style.backgroundColor === guessValue.innerText){
+			message.textContent = "You Got It!!";
+			changeColor(guessValue.innerText);
+		}else{
+			message.textContent = "Try Again!!";
+			this.style.background = "#232323";
+		}
+
 	});
 }
 
 
-function check(k) {
-	console.log(rgbColor[k].red + " " + rgbColor[k].green + " " + rgbColor[k].blue);
+function changeColor(color){
+	for(var i = 0; i < squares.length; i++){
+		squares[i].style.background = color;
+	}
 }
