@@ -7,35 +7,15 @@
 </head>
 <body>
 
-	
-
 	<div class="container">
 		<div class="jumbotron lightGray">
 		  <h1 class="setFontColor">Poker Game By XingHua Lin</h1>
 		  <a href="https://en.wikipedia.org/wiki/List_of_poker_hand_categories">Rules</a>
 		  <p>A sample game play scenario</p>
 		  <ol>
-		  	<li>How many players will be participating this game? (2-4)</li>
-		  		<ul><li class="Ptag">Loop prompt user when load-in the page</li></ul>
-		  	<li>Game starts with (number of players entered) players</li>
-		  		<ul><li class="Ptag">From first step</li></ul>
-		  	<li>Create a new deck of cards</li>
-		  		<ul><li class="Ptag">Do it after user input number of player</li></ul>
-		  	<li>Shuffle the deck</li>
-		  		<ul><li class="Ptag">Do it after user input number of player follow by step 3</li></ul>
-		  	<li>Deal one card to each player in turns until every player has 5 cards in hand</li>
-		  		<ul><li class="Ptag">It does not show to send card one by one but send card one by one in backend</li></ul>
-		  	<li>Display what card each player holds</li>
-		  		<ul><li class="Ptag">Display Function</li></ul>
-		  	<li>Declares the winner</li>
-		  		<ul><li class="Ptag">Alert and winner background change</li></ul>
-		  	<li>Continue? (Y/N)</li>
-		  		<ul>
-		  			<li class="Ptag">Build-in Confirm Windows(need to updata to jQuery UI Dialog box)</li>
-		  			<li class="Ptag">Change this to button because the confirm go too fast(not enought time the display in last step)</li>
-		  		</ul>
-		  	<li>In case the game continues, use the undealt cards to play the next game. When all cards are dealt, reshuffle the whole deck.</li>
-		  		<ul><li class="Ptag">reshuffle() function</li></ul>
+		  	<li>Support up to 4 player.</li>
+		  	<li>Click "Send Card" to each player</li>
+		  	<li>Click "Find Winner" to determine who is winning</li>
 		  </ol>
 
 		  <h1 id="winnerid">Winner: Pending</h1>
@@ -47,10 +27,6 @@
 		  	<p>Step 2: <button id="getwinner">Find Winner</button></p>
 		  </div>
 	</div>
-
-
-
-
 
 	<div class="container">
 		<div id="winner1">
@@ -111,8 +87,6 @@
 			  </div>
 			</div>
 		</div>
-
-
 
 	
 </body>
