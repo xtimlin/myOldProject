@@ -162,7 +162,7 @@ var poker = {
 		Quick player's hand card by order
 	**********************************************************/
 	sort : function(){
-		for(var index = 0; index < poker.cardsonhand.length; index++){
+		for(var index = 0; index < this.cardsonhand.length; index++){
 			poker.quicksort(index, 0, poker.cardsonhand[index].length - 1);
 		}
 	},
@@ -176,7 +176,7 @@ var poker = {
         var pivot = poker.cardsonhand[index][Math.floor((start + end) / 2)];
 
         while (left <= right) {
-            while (left <= right && poker.cardsonhand[index][left].order < pivot.order) {
+            while (left <= right && this.cardsonhand[index][left].order < pivot.order) {
                 left++;
             }
             while (left <= right && poker.cardsonhand[index][right].order > pivot.order) {
