@@ -1,0 +1,21 @@
+#blue{
+	background-color: #3b5998;
+}
+
+#facebooklogo{
+	color: white;
+}
+
+#logininfo{
+	float:right;
+}
+
+#pageFooter {
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+}
+
+li{
+	display: inline;
+}
