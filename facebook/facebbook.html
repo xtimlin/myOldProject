@@ -3,74 +3,83 @@
 	<head>
 		<title>Facebook Login</title>
 		<link rel="stylesheet" type="text/css" href="facebook.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-default" id="blue">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <h1 id="facebooklogo">Facebook</h1>
-		    </div>
 
-		    <div  style="float:right;">
-		    	<form action="action_page.php">
-				  <p>
-				  	Email or Phone
-				  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				  	Password</p>
-				  <!-- <br> -->
-				  <input id="username" type="text">
-				  <input id="Password" type="Password">
-				  <button id="login">Log In</button>
-				  <br>
-				  <a href="#">Forgot account?</a>
-				</form> 
-		    </div>
-		  </div>
-		</nav>
 
-		<div class="container">
-			<img src="https://www.facebook.com/rsrc.php/v3/yl/r/wrxaDQiFHzm.png" width="565px" height="489px">
+		<div id="header">
+			<div id="header-container">
+				<h1>Facebook</h1>
+				<div style="float:right;">
+					<table class="login">
+						<tr>
+							<td>Email or Phone</td>
+							<td>Password</td>
+						</tr>
+						<tr>
+							<td><input id="username" type="text"></td>
+							<td><input id="Password" type="Password"></td>
+							<td><button id="loginButton">Log In</button></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><a href="#" style="color: #5d96b7">Forgot account?</a></td>
+							<td></td>
+						</tr>
 
-			<div  style="float:right;">
-				<!-- <div style="float:left;"> -->
-			    	<form action="action_page.php">
-					  <h1>Sign Up</h1>
-					  <h4>It's free and always will be</h4>
-					  <input type="text" placeholder="First name">
-					  <input type="text" placeholder="last name">
-					  <br>
-					  <input type="number" placeholder="Mobile number or email">
-					  <br>
-					  <input type="number" placeholder="Re-enter mobile number or email">
-					  <br>
-					  <input type="Password" placeholder="New Password">
-					  <br>
-
-					  <h5>Birthday</h5>
-					  <select>
-					  	<option>Month</option>
-					  </select>
-					  <select>
-					  	<option>Day</option>
-					  </select>
-					  <select>
-					  	<option>Year</option>
-					  </select>
-					  <a href="#">Why do I need to provide my birthday?</a><br>
-					  <input type="radio" name="gender" value="Female"> Male
-					  <input type="radio" name="gender" value="Male"> Female<br>
-
-					  
-					  <p>By clicking Create Account, you agree to our <a href="#">Terms</a> and that you<br> have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>. You may<br> receive SMS Notifications from Facebook and can opt out at any<br>time.</p>
-					  
-					  <button>Create Account</button>
-					  <h6><a href="#">Create a Page</a> for a celebrity, band or business.</h6>
-
-					</form> 
-				<!-- </div> -->
+					</table>
+		    	</div>
 			</div>
 		</div>
+
+
+
+
+
+		<div id="main-body">
+			<div id="image">
+				<img src="https://www.facebook.com/rsrc.php/v3/yl/r/wrxaDQiFHzm.png" width="565px" height="489px">
+			</div>
+			
+			<div>
+				<form>
+			  	<h1>Sign Up</h1>
+			  	<h4>It's free and always will be</h4>
+		
+				<input class="nameinput" type="text" placeholder="First name">
+			  	<input class="nameinput" type="text" placeholder="last name">
+			  	<br>
+			  	<input type="number" placeholder="Mobile number or email">
+			  	<br>
+			  	<input type="number" placeholder="Re-enter mobile number or email"	>
+			  	<br>
+			  	<input class="nameinput" type="Password" placeholder="New Password">
+			  	<br>
+	
+			  	<h5>Birthday</h5>
+			  	<select>
+			  		<option>Month</option>
+			  	</select>
+			  	<select>
+			  		<option>Day</option>
+			  	</select>
+			  	<select>
+			  		<option>Year</option>
+			  	</select>
+			  	<a href="#">Why do I need to provide my birthday?</a><br>
+			  	<input type="radio" name="gender" value="Female"> Male
+			  	<input type="radio" name="gender" value="Male"> Female<br>
+
+			  	
+			  	<p>By clicking Create Account, you agree to our <a href="#">Terms</a> and that you<br> have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>. You may<br> receive SMS Notifications from Facebook and can opt out at any<br>time.</p>
+			  
+			  	<button id="signUpButton">Create Account</button>
+			  	<h6><a href="#">Create a Page</a> for a celebrity, band or business.</h6>
+			</div>
+		</div>
+
+
 
 		<div id="pageFooter">
 			<ul>
@@ -86,42 +95,48 @@
 			<li><a href="#"> हिन्दी</a></li>
 			<li><a href="#"> 日本語</a></li>
 			</ul>
-		</div>
-		<hr>
-		<tr>
-			<td><a href="#">Sign Up</a></td>
-			<td><a href="#">Log In</a></td>
-			<td><a href="#">Messenger</a></td>
-			<td><a href="#">Facebook Lite</a></td>
-			<td><a href="#">Mobile</a></td>
-			<td><a href="#">Find Friends</a></td>
-			<td><a href="#">People</a></td>
-			<td><a href="#">Pages</a></td>
-			<td><a href="#">Places</a></td>
-			<td><a href="#">Games</a></td>
-			<td><a href="#">Location</a></td>
-		</tr>
-		<br>
-		<tr>
-			<td><a href="#">Celebrities</a></td>
-			<td><a href="#">Groups</a></td>
-			<td><a href="#">Moments</a></td>
-			<td><a href="#">Instagram</a></td>
-			<td><a href="#">About</a></td>
-			<td><a href="#">Create Ad</a></td>
-			<td><a href="#">Create Page</a></td>
-			<td><a href="#">Developers</a></td>
-			<td><a href="#">Careers</a></td>
-			<td><a href="#">Privacy</a></td>
-			<td><a href="#">Cookies</a></td>
-		</tr>
-		<br>
-		<tr>
-			<td><a href="#">Ad Choices</a></td>
-			<td><a href="#">Term</a></td>
-			<td><a href="#">Help</a></td>
-		</tr>
+		
+			<hr>
 
-		<p style="color: gray;">Facebook © 2017</p>
+			<table>
+
+				<tr class="feature">
+					<td><a href="#">Sign Up</a></td>
+					<td><a href="#">Log In</a></td>
+					<td><a href="#">Messenger</a></td>
+					<td><a href="#">Facebook Lite</a></td>
+					<td><a href="#">Mobile</a></td>
+					<td><a href="#">Find Friends</a></td>
+					<td><a href="#">People</a></td>
+					<td><a href="#">Pages</a></td>
+					<td><a href="#">Places</a></td>
+					<td><a href="#">Games</a></td>
+					<td><a href="#">Location</a></td>
+				</tr>
+
+				<tr class="feature">
+					<td><a href="#">Celebrities</a></td>
+					<td><a href="#">Groups</a></td>
+					<td><a href="#">Moments</a></td>
+					<td><a href="#">Instagram</a></td>
+					<td><a href="#">About</a></td>
+					<td><a href="#">Create Ad</a></td>
+					<td><a href="#">Create Page</a></td>
+					<td><a href="#">Developers</a></td>
+					<td><a href="#">Careers</a></td>
+					<td><a href="#">Privacy</a></td>
+					<td><a href="#">Cookies</a></td>
+				</tr>
+
+				<tr class="feature">
+					<td><a href="#">Ad Choices</a></td>
+					<td><a href="#">Term</a></td>
+					<td><a href="#">Help</a></td>
+				</tr>
+			</table>
+			
+			<p style="color: gray;">Facebook © 2017</p>
+		</div>
+
 	</body>
 </html>

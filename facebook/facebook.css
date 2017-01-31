@@ -1,21 +1,143 @@
-#blue{
+body{
+	min-width:1130px; /* suppose you want minimun width of 1000px */
+   	width: auto !important;  /* Firefox will set width as auto */
+   	width:1000px;           
+}
+
+#header{
+	width: 100%;
+	height: 100px;
 	background-color: #3b5998;
+	margin: 0 auto;
+	padding: 0 auto;
 }
 
-#facebooklogo{
+#header-container{
+	width: 85%;
+	height: 100px;
 	color: white;
+	margin: 0 7.5%;
 }
 
-#logininfo{
-	float:right;
+#header-container h1{
+	float: left;
+	width: 300px;
+	color: white;
+	font-size: 45pt;
+	padding: 0 auto;
+	margin: 15px 0;
 }
+
+.login{
+	margin: 25px 0;
+}
+
+
+#main-body{
+	min-width:1130px; /* suppose you want minimun width of 1000px */
+   	width: auto !important;  /* Firefox will set width as auto */
+   	  
+	width: 90%;
+	margin: 0 5%;
+	height: 800px;
+	/*background-color: gray;*/
+}
+
+#main-body div{
+	width: 40%;
+
+	margin: 20px 5%;
+
+	float: left;
+	/*background-color: yellow;*/
+}
+
+img{
+	margin-top: 50px;
+	margin-left: 15%;
+}
+
+
+.newbuttonstyle{
+	margin: 10px 0 10px 0;
+}
+
+#main-body input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#main-body input[type=number] {
+    width: 80.5%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#main-body input[type=Password]{
+    width: 80.5%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+select {
+    width: 15%;
+    padding: 16px 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+#signUpButton{
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#loginButton{
+	background-color: #324b72;
+    border: none;
+    color: white;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
 
 #pageFooter {
     color: #737373;
-    margin: 0 auto;
-    width: 980px;
+    
+    width: 80%;
+	margin: 0 10%;
+
+    min-width:1130px; /* suppose you want minimun width of 1000px */
+   	width: auto !important;  /* Firefox will set width as auto */
 }
 
-li{
+
+#pageFooter li{
 	display: inline;
+	width: 10%;
+	margin: 0 4px;
+}
+
+ul{
+	padding: 0;
+}
+
+
+.feature td{
+	margin: 0 4px;
+	width: 8%;
 }
