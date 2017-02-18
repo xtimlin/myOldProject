@@ -1,10 +1,10 @@
 /**************************************************
 https://en.wikipedia.org/wiki/High_card_by_suit
-1	-> 2 		
-2	-> 3		
-3	-> 4		
-4	-> 5		
-5	-> 6		
+1	-> 2
+2	-> 3
+3	-> 4
+4	-> 5
+5	-> 6
 6	-> 7		clubs(♣) 	: A 		A14	-> smaller Joker
 7	-> 8		diamonds(♦)	: B 		B14 -> big Joker
 8	-> 9		hearts(♥)	: C
@@ -171,7 +171,7 @@ var poker = {
 		if (start >= end) {
             return;
         }
-        
+
         var left = start, right = end;
         var pivot = poker.cardsonhand[index][Math.floor((start + end) / 2)];
 
@@ -186,12 +186,12 @@ var poker = {
                 var temp = poker.cardsonhand[index][left];
                 poker.cardsonhand[index][left] = poker.cardsonhand[index][right];
                 poker.cardsonhand[index][right] = temp;
-                
+
                 left++;
                 right--;
             }
         }
-        
+
         poker.quicksort(index, start, right);
         poker.quicksort(index, left, end);
 
@@ -361,7 +361,7 @@ var poker = {
 	},
 
 	/*************************************************************************************************************************************************************************************************************************************************************
-	following function are implement from the given web page: 
+	following function are implement from the given web page:
 								https://en.wikipedia.org/wiki/List_of_poker_hand_categories
 	************************************************************************************************************************************************************************************************************************/
 	//Five of a kind [x,x,x,x,14], higest winning chance level 10
@@ -471,10 +471,10 @@ var poker = {
 
 	// HighCard, winning chance level 1
 	HighCard : function(arr){
-		return {"card" : arr[4], "level" : 1, "Message" : "Higher Card"};	
+		return {"card" : arr[4], "level" : 1, "Message" : "Higher Card"};
 	}
 
-}
+};
 
 
 
@@ -507,7 +507,7 @@ var poker = {
 			poker.sendcard();
 			poker.sort();
 			poker.displayCard();
-		}	
+		}
 	});
 
 

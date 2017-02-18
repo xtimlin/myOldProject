@@ -1,0 +1,8 @@
+[
+	{"account" : "IRA - 5200", "amounts" : 5763.36, "rate" : -0.08, "amountChange" : 8916.69},
+	{"account" : "AAA - 3810", "amounts" : 10050054.07, "rate" : 0.07, "amountChange" : 8916.69},
+	{"account" : "REG - 2019", "amounts" : 13465679.34, "rate" : 0, "amountChange" : 0},
+	{"account" : "AAA - 1812", "amounts" : 2010926.10, "rate" : 0.21, "amountChange" : 38881.63},
+	{"account" : "IRA - 0146", "amounts" : 15884302.39, "rate" : 0.03, "amountChange" : 7430.83},
+	{"account" : "AAA - 0029", "amounts" : 39160334.42, "rate" : -0.07, "amountChange" : 31435.87}
+]

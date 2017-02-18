@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise V3</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body ng-app="stockDemo" ng-controller="stockMainController">
+
+	<table>
+		<tr style="font-size:0.7em;">
+    		<th class="left" style="background-color: #efefef" ng-click="sortBy('accountNumber')">
+    			Account
+    			<span class="sortorder" ng-show="propertyName === 'accountNumber'" ng-class="{reverse: reverse}"></span>
+    		</th>
+
+	    	<th class="right" style="background-color: #f9f4f4" ng-click="sortBy('amounts')">
+	    		<span class="sortorder" ng-show="propertyName === 'amounts'" ng-class="{reverse: reverse}"></span>
+	    		Available Cash<br>
+	    		<span style = " color: gray">Today's Change</span>
+	    	</th>
+	  	</tr>
+
+ 		<tr ng-repeat="stock in stocks | orderBy:propertyName:reverse | limitTo:limit">
+    		<td class="left accountStyle">{{stock.account}}</td>
+	    	<td class="right">
+    			<span class="amountStyle">{{stock.amounts | currency}}</span><br>
+
+    			<span ng-class="{
+    				'green' : stock.rate > 0,
+    				'red' : stock.rate < 0,
+    				'nochange' : stock.rate == 0}" style="font-size: 0.7em"> {{stock.rate}}% / {{stock.amountChange | currency}}</span>
+    		</td>
+		</tr>
+		<tr><td colspan="2" class="loadMore" ng-if="limit == 3" ng-click="maxLimit()">Load More</td></tr>
+	</table>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+	<script type="text/javascript" src="script/app.js"></script>
+</body>
+</html>

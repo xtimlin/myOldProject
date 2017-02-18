@@ -1,0 +1,85 @@
+body{
+	margin-top: 5%;
+	background-color: #39BBED;
+}
+
+.left{
+	text-align : left;
+	padding-left: 2%;
+	margin: auto;
+	width: 50%;
+}
+
+.right{
+	text-align : right;
+	width: 50%;
+	padding-right: 2%;
+}
+
+
+table {
+	margin: auto;
+	width: 30%;
+	border-collapse: collapse;
+	min-width: 300px;
+}
+
+
+tr{
+	background-color: white;
+	margin: 0;
+	border-collapse: collapse;
+	border-bottom:1px solid gray;
+}
+
+td{
+	border-collapse: collapse;
+}
+
+.green{
+	color:#2edb45;
+}
+
+.red{
+	color:red;
+}
+
+.nochange{
+	color:gray;
+}
+
+.amountStyle{
+	font-weight: bold;
+}
+
+.dailyUpdateStyle{
+	font-size: 0.7em;
+}
+
+.accountStyle{
+	font-weight: bold;
+	color: #1297C9;
+}
+
+
+.loadMore{
+	width: 30%;
+	padding: auto;
+	margin: auto;
+	height: 39.2px;
+	background-color: white;
+	color: #39BBED;
+	text-align: center;
+}
+
+.sortorder:after {
+  /*content: '\25b2';   // BLACK UP-POINTING TRIANGLE*/
+  content: '^';
+  color: #0145b2;
+}
+
+.sortorder.reverse:after {
+  /*content: '\25bc';   // BLACK DOWN-POINTING TRIANGLE*/
+  content: 'v';
+  color: #0145b2;
+}
