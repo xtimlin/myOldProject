@@ -1,0 +1,34 @@
+<div class="pages-header">
+	<h1>Re-send Activation Email</h1>
+</div>
+
+<form ng-submit="resend.checkCredentials(loginData);">
+	<label>Username:</label>
+	<input class="form-control" type="text" name="username" placeholder="Username" ng-model='resend.loginData.username'><br>
+
+	<label>Password:</label>
+	<input class="form-control" type="password" name="password" placeholder="Password" ng-model='resend.loginData.password'><br>
+
+	<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+
+
+<br>
+
+
+
+<div class="jumbotron text-center" ng-show="resend.loading">
+	<span class="glyphicon glyphicon-repeat spinner"></span>
+	<p>Loading...</p>
+</div>
+
+
+<br>
+<div class="row show-hide-message" ng-show="resend.successMessage">
+	<div class="alert alert-success">{{resend.successMessage}}</div>
+</div>
+
+<br>
+<div class="row show-hide-message" ng-show="resend.errorMessage">
+	<div class="alert alert-danger">{{resend.errorMessage}}</div>
+</div>
