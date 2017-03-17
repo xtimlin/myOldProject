@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS Media Queries Demo</title>
+		<link rel="stylesheet" type="text/css" href="cssMediaQueries.css">
+	</head>
+	<body>
+		<h1>what is Media Queries</h1>
+			<ul>
+				<li>Media Queries allows you to set different rules for different devices through simple queries about the device's features, such as screen width, device's width, color and orientation</li>
+				<li>
+					Media query is a CSS technique introduced in CSS3.
+				</li>
+				<li>
+					It uses the <mark>@media</mark> rule to include a block of CSS properties only if a certain condition is true.
+				</li>
+				<li><mark>Breakpoint</mark> - for the window size</li>
+			</ul>
+
+
+		<h1>How to create a query</h1>
+		<a href="https://www.youtube.com/watch?v=j-0NdTW-HFc">CSS Jump Start: 04 Media Queries</a>
+		<ul>
+			<li>
+				<h2>Media Type</h2>
+				<ul>
+					<li><strong>All-all screens</strong></li>
+					<li><strong>Print - page for printing</strong></li>
+					<li><strong>Screen - computer screen</strong></li>
+					<li><strong>Speedch - speech reader</strong></li>
+					<li>Braille - braille printer</li>
+					<li>Embossed</li>
+					<li>Handheld - handhelp devices</li>
+					<li>Projection - projection tvs</li>
+					<li>TTY</li>
+					<li>TV</li>
+				</ul>
+			</li>
+
+			<li>
+				<h2>Media Features</h2>
+				<ul>
+					<li><strong>Width/Height</strong></li>
+					<li><strong>Device-Width/Device-Height</strong></li>
+					<li><strong>Orientation - Landscape/Portrait View cellphone rotation(table/colom)</strong></li>
+					<li><strong>Aspect-ratio - device aspect ratio is 16:9 or 16:10 for example</strong></li>
+					<li>Device-aspeact-ratio</li>
+					<li>Color</li>
+					<li>Color-index</li>
+					<li>Monochrome</li>
+					<li>Resolution</li>
+					<li>Scan</li>
+					<li>Grid</li>
+				</ul>
+			</li>
+
+			<li>
+				<h2><mark>Logical Operators</mark></h2>
+				<ul>
+					<li>And - if all conditions are true</li>
+					<li>Or - comma separated, either one condition is true</li>
+					<li>Not - only is this condition is not true</li>
+					<li>
+						<ul>
+							<li>
+								<code>
+									@media(min-width: 500px){<br>
+									support page width less than 500px<br>
+									}
+								</code>
+							</li>
+							<li>
+								<code>
+									@media(min-width: 500px) and (max-width: 1000px){<br>
+									support page width between 500px to 1000px<br>
+									}
+								</code>
+							</li>
+							<li>
+								<code>
+									@media screen and not (device-aspect-ratio:4/3){<br>
+									support computer screen but not in ratio 4:3<br>
+									}
+								</code>
+							</li>
+							<li>
+								<code>
+									@media screen and (device-aspect-ratio:16/9), screen and (device-aspect-ratio: 16/10){<br>
+									support computer screen but not in ratio 16:10<br>
+									}
+								</code>
+							</li>	
+						</ul>
+					</li>
+				</ul>
+				
+
+			</li>
+		</ul>
+	</body>
+</html>

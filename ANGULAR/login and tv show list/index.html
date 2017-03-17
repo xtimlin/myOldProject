@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Show List</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    </head>
+    <body ng-app="show">
+        <div ng-controller="showController">
+
+        <div id="login" ng-show="!depend">
+
+            <!-- <form>
+              <div class="login">
+                ID:
+                <input type="text" ng-model="id" placeholder="Username" required="required" />
+              </div>
+              <div class="login">
+                PassWord:
+                <input type="password" ng-model="password" placeholder="Password" required="required" />
+              </div>
+              <button type="submit" ng-click="depend = loginfunction()">Let me in</button>
+            </form> -->
+
+
+          <div class="login">
+            <div class="heading">
+              <h2 style="color:white">Sign in</h2>
+              <form action="#">
+
+                <div class="input-group input-group-lg">
+                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                  <input ng-model="id" type="text" class="form-control" placeholder="Username or email">
+                    </div>
+
+                  <div class="input-group input-group-lg">
+                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                    <input ng-model="password" type="password" class="form-control" placeholder="Password">
+                  </div>
+
+                  <button type="submit" class="float" ng-click="depend = loginfunction()">Login</button>
+                 </form>
+              </div>
+           </div>
+
+
+
+        </div>
+
+
+
+
+        <div ng-show="depend">
+            <h1>Tv Show List</h1>
+                <input id="searchInput" type="text" ng-model="search" placeholder="Search">
+
+                <h1>one <button ng-click="one = true">open</button><button ng-click="one = false">close</button></h1>
+                <table ng-show="one">
+                    <tr>
+                        <th>Sequence</th>
+                        <th>Season</th>
+                        <th>Episode</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                    </tr>
+
+                    <tr ng-repeat="item in totalList | filter: {ss: 1}  |filter: search | orderBy : 'item.seq'">
+                       <td>{{item.seq}}</td>
+                       <td>{{item.ss}}</td>
+                       <td>{{item.ep}}</td>
+                       <td>{{item.nm}}</td>
+                       <td>{{item.dte}}</td>
+                    </tr>
+                </table>
+
+
+
+
+
+
+                <h1>two <button ng-click="two = true">open</button> <button ng-click="two = false">close</button></h1>
+                <table ng-show="two">
+                    <tr>
+                        <th>Sequence</th>
+                        <th>Season</th>
+                        <th>Episode</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                    </tr>
+
+                    <tr ng-repeat="item in totalList | filter: {ss: 2}  |filter: search | orderBy : 'item.seq'">
+                       <td>{{item.seq}}</td>
+                       <td>{{item.ss}}</td>
+                       <td>{{item.ep}}</td>
+                       <td>{{item.nm}}</td>
+                       <td>{{item.dte}}</td>
+                    </tr>
+                </table>
+
+
+
+
+
+
+
+                <h1>three <button ng-click="three = true">open</button> <button ng-click="three = false">close</button></h1>
+                <table ng-show="three">
+                    <tr>
+                        <th>Sequence</th>
+                        <th>Season</th>
+                        <th>Episode</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                    </tr>
+
+                    <tr ng-repeat="item in totalList | filter: {ss: 3}  |filter: search | orderBy : 'item.seq'">
+                       <td>{{item.seq}}</td>
+                       <td>{{item.ss}}</td>
+                       <td>{{item.ep}}</td>
+                       <td>{{item.nm}}</td>
+                       <td>{{item.dte}}</td>
+                    </tr>
+                </table>
+
+
+
+
+
+
+
+
+
+                <h1>four <button ng-click="four = true">open</button> <button ng-click="four = false">close</button></h1>
+                <table ng-show="four">
+                    <tr>
+                        <th>Sequence</th>
+                        <th>Season</th>
+                        <th>Episode</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                    </tr>
+
+                    <tr ng-repeat="item in totalList | filter: {ss: 4}  |filter: search | orderBy : 'item.seq'">
+                       <td>{{item.seq}}</td>
+                       <td>{{item.ss}}</td>
+                       <td>{{item.ep}}</td>
+                       <td>{{item.nm}}</td>
+                       <td>{{item.dte}}</td>
+                    </tr>
+                </table>
+
+
+
+
+
+
+
+                <h1>five <button ng-click="five = true">open</button>  <button ng-click="five = false">close</button></h1>
+                <table ng-show="five">
+                    <tr>
+                        <th>Sequence</th>
+                        <th>Season</th>
+                        <th>Episode</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                    </tr>
+
+                    <tr ng-repeat="item in totalList | filter: {ss: 5}  |filter: search | orderBy : 'item.seq'">
+                       <td>{{item.seq}}</td>
+                       <td>{{item.ss}}</td>
+                       <td>{{item.ep}}</td>
+                       <td>{{item.nm}}</td>
+                       <td>{{item.dte}}</td>
+                    </tr>
+                </table>
+
+
+
+
+
+
+
+
+
+                <h1>six <button ng-click="six = true">open</button> <button ng-click="six = false">close</button></h1>
+                <table ng-show="six">
+                    <tr>
+                        <th>Sequence</th>
+                        <th>Season</th>
+                        <th>Episode</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                    </tr>
+
+                    <tr ng-repeat="item in totalList | filter: {ss: 6}  |filter: search | orderBy : 'item.seq'">
+                       <td>{{item.seq}}</td>
+                       <td>{{item.ss}}</td>
+                       <td>{{item.ep}}</td>
+                       <td>{{item.nm}}</td>
+                       <td>{{item.dte}}</td>
+                    </tr>
+                </table>
+
+
+
+
+
+
+
+
+                <h1>seven <button ng-click="seven = true">open</button> <button ng-click="seven = false">close</button></h1>
+                <table ng-show="seven">
+                    <tr>
+                        <th>Sequence</th>
+                        <th>Season</th>
+                        <th>Episode</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                    </tr>
+
+                    <tr ng-repeat="item in totalList | filter: {ss: 7}  |filter: search | orderBy : 'item.seq'">
+                       <td>{{item.seq}}</td>
+                       <td>{{item.ss}}</td>
+                       <td>{{item.ep}}</td>
+                       <td>{{item.nm}}</td>
+                       <td>{{item.dte}}</td>
+                    </tr>
+                </table>
+
+
+
+
+
+
+
+
+                <h1> eight <button ng-click="eight = true">open</button> <button ng-click="eight = false">close</button></h1>
+                <table ng-show="eight">
+                    <tr>
+                        <th>Sequence</th>
+                        <th>Season</th>
+                        <th>Episode</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                    </tr>
+
+                    <tr ng-repeat="item in totalList | filter: {ss: 8}  |filter: search | orderBy : 'item.seq'">
+                       <td>{{item.seq}}</td>
+                       <td>{{item.ss}}</td>
+                       <td>{{item.ep}}</td>
+                       <td>{{item.nm}}</td>
+                       <td>{{item.dte}}</td>
+                    </tr>
+                </table>
+
+
+
+
+
+                <h1>nine <button ng-click="nine = true">open</button> <button ng-click="nine = false">close</button></h1>
+                <table ng-show="nine">
+                    <tr>
+                        <th>Sequence</th>
+                        <th>Season</th>
+                        <th>Episode</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                    </tr>
+
+                    <tr ng-repeat="item in totalList | filter: {ss: 9}  |filter: search | orderBy : 'item.seq'">
+                       <td>{{item.seq}}</td>
+                       <td>{{item.ss}}</td>
+                       <td>{{item.ep}}</td>
+                       <td>{{item.nm}}</td>
+                       <td>{{item.dte}}</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+        <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+        <script type="text/javascript" src="script/app.js"></script>
+
+    </body>
+</html>

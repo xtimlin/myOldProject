@@ -1,0 +1,89 @@
+body{
+	text-align: center;
+	background: #304352; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #304352 , #d7d2cc); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #304352 , #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	             
+}
+
+#header{
+	/*background-color: #354860;*/
+	background: #E6DADA; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #E6DADA , #274046); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #E6DADA , #274046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
+	width: 100%;
+	/*height: 5%;*/
+}
+
+h1{
+	text-align: center;
+}
+
+
+div{
+	width: 30%;
+	margin: 1.666%;
+	float: left;
+}
+
+#container{
+	width: 100%;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+img{
+	width: 30%;
+	margin: 1.66%;
+	float: left;
+}
+
+@media screen and (min-width: 736px) and (max-width: 980px){
+	#thirddivinheader{
+		display: none;
+	}
+	div{
+		width: 45%;
+		margin: 2.5%;
+		float: left;
+	}
+
+	img{
+		width: 45%;
+		margin: 2.5%;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 735px){
+	#seconddivinheader{
+		display: none;
+	}
+
+	#thirddivinheader{
+		display: none;
+	}
+
+	div{
+		width: 100%;
+	}
+
+	img{
+		width: 90%;
+		margin: 5%;
+	}
+}
+
+@media screen and (max-width: 200px){
+	#firstdivinheader{
+		display: none;
+	}
+	#seconddivinheader{
+		display: none;
+	}
+
+	#thirddivinheader{
+		display: none;
+	}
+}

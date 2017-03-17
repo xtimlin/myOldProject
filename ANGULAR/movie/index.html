@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<title>Movies</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	</head>
+	<body>
+		<h1 style="text-align: center">Movies List</h1>
+		<div ng-controller="moviesController">
+
+			<table id="displayTable">
+				<tr>
+				<th>Title</th>
+				<th>Genre</th>
+				<th>Director</th>
+				<th>Rating</th>
+				<th>Option</th>
+				<th>Delete</th>
+				</tr>
+
+				<tr ng-repeat="movie in movies">
+					<td>{{movie.title}}</td>
+					<td>{{movie.genres}}</td>
+					<td>{{movie.director}}</td>
+					<td>{{movie.rating}}</td>
+
+					<td>
+						<button ng-click = "up()"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></button>
+						<button ng-click = "down()"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button>
+					</td>
+					<td>
+						<button ng-click = "delete()"><i class="fa fa-trash" aria-hidden="true"></i></button>
+					</td>
+				</tr>
+			</table>
+
+            <div id="addDataTable" ng-show="btn">
+
+                <form name = "required">
+                    <span><input ng-model="newMovieObj.title" type="text" placeholder="Movie Title" required></span>
+                    <span><input ng-model="newMovieObj.genres" type="text" placeholder="Genre" required></span>
+                    <span><input ng-model="newMovieObj.director" type="text" placeholder="director" required></span>
+                    <span><input ng-model="newMovieObj.rating" type="number"  min="2" max="10" maxlength=2 placeholder="Rating (2~8)" required></span>
+
+                    <span><button id="addNewMovie" ng-disabled="required.$invalid" ng-click="addNewMovie(); btn=false"><i class="fa fa-plus" aria-hidden="true"></i></button></span>
+                    <span><button id="hideNewMovieBox" ng-click="btn=false"><i class="fa fa-trash" aria-hidden="true"></i></button></span>
+                </form>
+            </div>
+
+			<div id="addButtonDiv" ng-show="!btn">
+				<button id="addButton" ng-click="btn=true"><i class="fa fa-plus-square" aria-hidden="true"></i></button>
+			</div>
+			</table>
+
+		</div>
+		<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+		<script type="text/javascript" src="script/app.js"></script>
+	</body>
+</html>

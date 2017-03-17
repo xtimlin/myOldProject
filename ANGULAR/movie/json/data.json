@@ -1,0 +1,7 @@
+[
+	{"title": "title1", "genres": "type1", "director": "person1", "rating": 4},
+	{"title": "title2", "genres": "type2", "director": "person2", "rating": 1},
+	{"title": "title3", "genres": "type3", "director": "person3", "rating": 4},
+	{"title": "title4", "genres": "type4", "director": "person4", "rating": 8},
+	{"title": "title5", "genres": "type5", "director": "person5", "rating": 3}
+]

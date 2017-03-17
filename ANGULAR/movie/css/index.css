@@ -1,0 +1,54 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 10%;
+    outline: 1px solid black;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+th, td {
+	width: 16.66%;
+    padding: 8px 0;
+    margin-bottom: 0;
+    border: 1px solid black;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#addButtonDiv{
+	width: 80%;
+	margin: 0 10%;
+}
+
+#addButton{
+	width: 100%;
+}
+
+
+#addDataTable{
+	width: 80%;
+    margin: 0 10%;
+    padding: 8px 0;
+    border:1px solid black;
+}
+
+#addDataTable input{
+	width: 16%;
+    padding: 0;
+    margin:8px auto;
+    width: 150px;
+    margin: 0 3.3%;
+    outline: 1px solid red;
+}
+
+#addDataTable button{
+    width: 20px
+    padding: 0;
+}

@@ -1,0 +1,1270 @@
+[
+  {
+    "seq": 1,
+    "ss": "1",
+    "ep": 101,
+    "nm": "Good News, Bad News",
+    "dte": "1989-07-05"
+  },
+  {
+    "seq": 2,
+    "ss": "1",
+    "ep": 103,
+    "nm": "The Stakeout",
+    "dte": "1990-05-31"
+  },
+  {
+    "seq": 3,
+    "ss": "1",
+    "ep": 104,
+    "nm": "The Robbery",
+    "dte": "1990-06-07"
+  },
+  {
+    "seq": 4,
+    "ss": "1",
+    "ep": 102,
+    "nm": "Male Unbonding",
+    "dte": "1990-06-14"
+  },
+  {
+    "seq": 5,
+    "ss": "1",
+    "ep": 105,
+    "nm": "The Stock Tip",
+    "dte": "1990-06-21"
+  },
+  {
+    "seq": 6,
+    "ss": "2",
+    "ep": 201,
+    "nm": "The Ex-Girlfriend",
+    "dte": "1991-01-23"
+  },
+  {
+    "seq": 7,
+    "ss": "2",
+    "ep": 202,
+    "nm": "The Pony Remark",
+    "dte": "1991-01-30"
+  },
+  {
+    "seq": 8,
+    "ss": "2",
+    "ep": 205,
+    "nm": "The Jacket",
+    "dte": "1991-02-06"
+  },
+  {
+    "seq": 9,
+    "ss": "2",
+    "ep": 207,
+    "nm": "The Phone Message",
+    "dte": "1991-02-13"
+  },
+  {
+    "seq": 10,
+    "ss": "2",
+    "ep": 208,
+    "nm": "The Apartment",
+    "dte": "1991-04-04"
+  },
+  {
+    "seq": 11,
+    "ss": "2",
+    "ep": 210,
+    "nm": "The Statue",
+    "dte": "1991-04-11"
+  },
+  {
+    "seq": 12,
+    "ss": "2",
+    "ep": 212,
+    "nm": "The Revenge",
+    "dte": "1991-04-18"
+  },
+  {
+    "seq": 13,
+    "ss": "2",
+    "ep": 211,
+    "nm": "The Heart Attack",
+    "dte": "1991-04-25"
+  },
+  {
+    "seq": 14,
+    "ss": "2",
+    "ep": 213,
+    "nm": "The Deal",
+    "dte": "1991-05-02"
+  },
+  {
+    "seq": 15,
+    "ss": "2",
+    "ep": 204,
+    "nm": "The Baby Shower",
+    "dte": "1991-05-16"
+  },
+  {
+    "seq": 16,
+    "ss": "2",
+    "ep": 206,
+    "nm": "The Chinese Restaurant",
+    "dte": "1991-05-23"
+  },
+  {
+    "seq": 17,
+    "ss": "2",
+    "ep": 203,
+    "nm": "The Busboy",
+    "dte": "1991-06-26"
+  },
+  {
+    "seq": 18,
+    "ss": "3",
+    "ep": 301,
+    "nm": "The Note",
+    "dte": "1991-09-18"
+  },
+  {
+    "seq": 19,
+    "ss": "3",
+    "ep": 302,
+    "nm": "The Truth",
+    "dte": "1991-09-25"
+  },
+  {
+    "seq": 20,
+    "ss": "3",
+    "ep": 305,
+    "nm": "The Pen",
+    "dte": "1991-10-02"
+  },
+  {
+    "seq": 21,
+    "ss": "3",
+    "ep": 303,
+    "nm": "The Dog",
+    "dte": "1991-10-09"
+  },
+  {
+    "seq": 22,
+    "ss": "3",
+    "ep": 304,
+    "nm": "The Library",
+    "dte": "1991-10-16"
+  },
+  {
+    "seq": 23,
+    "ss": "3",
+    "ep": 306,
+    "nm": "The Parking Garage",
+    "dte": "1991-10-30"
+  },
+  {
+    "seq": 24,
+    "ss": "3",
+    "ep": 307,
+    "nm": "The Cafe",
+    "dte": "1991-11-06"
+  },
+  {
+    "seq": 25,
+    "ss": "3",
+    "ep": 308,
+    "nm": "The Tape",
+    "dte": "1991-11-13"
+  },
+  {
+    "seq": 26,
+    "ss": "3",
+    "ep": 309,
+    "nm": "The Nose Job",
+    "dte": "1991-11-20"
+  },
+  {
+    "seq": 27,
+    "ss": "2",
+    "ep": 209,
+    "nm": "The Stranded",
+    "dte": "1991-11-27"
+  },
+  {
+    "seq": 28,
+    "ss": "3",
+    "ep": 310,
+    "nm": "The Alternate Side",
+    "dte": "1991-12-04"
+  },
+  {
+    "seq": 29,
+    "ss": "3",
+    "ep": 311,
+    "nm": "The Red Dot",
+    "dte": "1991-12-11"
+  },
+  {
+    "seq": 30,
+    "ss": "3",
+    "ep": 313,
+    "nm": "The Subway",
+    "dte": "1992-01-08"
+  },
+  {
+    "seq": 31,
+    "ss": "3",
+    "ep": 314,
+    "nm": "The Pez Dispenser",
+    "dte": "1992-01-15"
+  },
+  {
+    "seq": 32,
+    "ss": "3",
+    "ep": 312,
+    "nm": "The Suicide",
+    "dte": "1992-01-29"
+  },
+  {
+    "seq": 33,
+    "ss": "3",
+    "ep": 317,
+    "nm": "The Fix-Up",
+    "dte": "1992-02-05"
+  },
+  {
+    "seq": 34,
+    "ss": "3",
+    "ep": 315,
+    "nm": "The Boyfriend (1)",
+    "dte": "1992-02-12"
+  },
+  {
+    "seq": 35,
+    "ss": "3",
+    "ep": 316,
+    "nm": "The Boyfriend (2)",
+    "dte": "1992-02-12"
+  },
+  {
+    "seq": 36,
+    "ss": "3",
+    "ep": 318,
+    "nm": "The Limo",
+    "dte": "1992-02-26"
+  },
+  {
+    "seq": 37,
+    "ss": "3",
+    "ep": 319,
+    "nm": "The Good Samaritan",
+    "dte": "1992-03-04"
+  },
+  {
+    "seq": 38,
+    "ss": "3",
+    "ep": 320,
+    "nm": "The Letter",
+    "dte": "1992-03-25"
+  },
+  {
+    "seq": 39,
+    "ss": "3",
+    "ep": 322,
+    "nm": "The Parking Space",
+    "dte": "1992-04-22"
+  },
+  {
+    "seq": 40,
+    "ss": "3",
+    "ep": 321,
+    "nm": "The Keys",
+    "dte": "1992-05-06"
+  },
+  {
+    "seq": 41,
+    "ss": "4",
+    "ep": 401,
+    "nm": "The Trip (1)",
+    "dte": "1992-08-12"
+  },
+  {
+    "seq": 42,
+    "ss": "4",
+    "ep": 402,
+    "nm": "The Trip (2)",
+    "dte": "1992-08-19"
+  },
+  {
+    "seq": 43,
+    "ss": "4",
+    "ep": 403,
+    "nm": "The Pitch",
+    "dte": "1992-09-16"
+  },
+  {
+    "seq": 44,
+    "ss": "4",
+    "ep": 404,
+    "nm": "The Ticket",
+    "dte": "1992-09-16"
+  },
+  {
+    "seq": 45,
+    "ss": "4",
+    "ep": 405,
+    "nm": "The Wallet (1)",
+    "dte": "1992-09-23"
+  },
+  {
+    "seq": 46,
+    "ss": "4",
+    "ep": 406,
+    "nm": "The Watch (2)",
+    "dte": "1992-09-30"
+  },
+  {
+    "seq": 47,
+    "ss": "4",
+    "ep": 407,
+    "nm": "The Bubble Boy",
+    "dte": "1992-10-07"
+  },
+  {
+    "seq": 48,
+    "ss": "4",
+    "ep": 408,
+    "nm": "The Cheever Letters",
+    "dte": "1992-10-28"
+  },
+  {
+    "seq": 49,
+    "ss": "4",
+    "ep": 409,
+    "nm": "The Opera",
+    "dte": "1992-11-04"
+  },
+  {
+    "seq": 50,
+    "ss": "4",
+    "ep": 410,
+    "nm": "The Virgin",
+    "dte": "1992-11-11"
+  },
+  {
+    "seq": 51,
+    "ss": "4",
+    "ep": 411,
+    "nm": "The Contest",
+    "dte": "1992-11-18"
+  },
+  {
+    "seq": 52,
+    "ss": "4",
+    "ep": 412,
+    "nm": "The Airport",
+    "dte": "1992-11-25"
+  },
+  {
+    "seq": 53,
+    "ss": "4",
+    "ep": 413,
+    "nm": "The Pick",
+    "dte": "1992-12-16"
+  },
+  {
+    "seq": 54,
+    "ss": "4",
+    "ep": 415,
+    "nm": "The Movie",
+    "dte": "1993-01-06"
+  },
+  {
+    "seq": 55,
+    "ss": "4",
+    "ep": 414,
+    "nm": "The Visa",
+    "dte": "1993-01-27"
+  },
+  {
+    "seq": 56,
+    "ss": "4",
+    "ep": 417,
+    "nm": "The Shoes",
+    "dte": "1993-02-04"
+  },
+  {
+    "seq": 57,
+    "ss": "4",
+    "ep": 416,
+    "nm": "The Outing",
+    "dte": "1993-02-11"
+  },
+  {
+    "seq": 58,
+    "ss": "4",
+    "ep": 418,
+    "nm": "The Old Man",
+    "dte": "1993-02-18"
+  },
+  {
+    "seq": 59,
+    "ss": "4",
+    "ep": 419,
+    "nm": "The Implant",
+    "dte": "1993-02-25"
+  },
+  {
+    "seq": 60,
+    "ss": "4",
+    "ep": 421,
+    "nm": "The Junior Mint",
+    "dte": "1993-03-18"
+  },
+  {
+    "seq": 61,
+    "ss": "4",
+    "ep": 422,
+    "nm": "The Smelly Car",
+    "dte": "1993-04-15"
+  },
+  {
+    "seq": 62,
+    "ss": "4",
+    "ep": 420,
+    "nm": "The Handicap Spot",
+    "dte": "1993-05-13"
+  },
+  {
+    "seq": 63,
+    "ss": "4",
+    "ep": 423,
+    "nm": "The Pilot (1)",
+    "dte": "1993-05-20"
+  },
+  {
+    "seq": 64,
+    "ss": "4",
+    "ep": 424,
+    "nm": "The Pilot (2)",
+    "dte": "1993-05-20"
+  },
+  {
+    "seq": 65,
+    "ss": "5",
+    "ep": 501,
+    "nm": "The Mango",
+    "dte": "1993-09-16"
+  },
+  {
+    "seq": 66,
+    "ss": "5",
+    "ep": 503,
+    "nm": "The Puffy Shirt",
+    "dte": "1993-09-23"
+  },
+  {
+    "seq": 67,
+    "ss": "5",
+    "ep": 502,
+    "nm": "The Glasses",
+    "dte": "1993-09-30"
+  },
+  {
+    "seq": 68,
+    "ss": "5",
+    "ep": 504,
+    "nm": "The Sniffing Accountant",
+    "dte": "1993-10-07"
+  },
+  {
+    "seq": 69,
+    "ss": "5",
+    "ep": 505,
+    "nm": "The Bris",
+    "dte": "1993-10-14"
+  },
+  {
+    "seq": 70,
+    "ss": "5",
+    "ep": 506,
+    "nm": "The Lip Reader",
+    "dte": "1993-10-28"
+  },
+  {
+    "seq": 71,
+    "ss": "5",
+    "ep": 508,
+    "nm": "The Non-Fat Yogurt",
+    "dte": "1993-11-04"
+  },
+  {
+    "seq": 72,
+    "ss": "5",
+    "ep": 507,
+    "nm": "The Barber",
+    "dte": "1993-11-11"
+  },
+  {
+    "seq": 73,
+    "ss": "5",
+    "ep": 509,
+    "nm": "The Masseuse",
+    "dte": "1993-11-18"
+  },
+  {
+    "seq": 74,
+    "ss": "5",
+    "ep": 510,
+    "nm": "The Cigar Store Indian",
+    "dte": "1993-12-09"
+  },
+  {
+    "seq": 75,
+    "ss": "5",
+    "ep": 511,
+    "nm": "The Conversion",
+    "dte": "1993-12-16"
+  },
+  {
+    "seq": 76,
+    "ss": "5",
+    "ep": 512,
+    "nm": "The Stall",
+    "dte": "1994-01-06"
+  },
+  {
+    "seq": 77,
+    "ss": "5",
+    "ep": 514,
+    "nm": "The Dinner Party",
+    "dte": "1994-02-03"
+  },
+  {
+    "seq": 78,
+    "ss": "5",
+    "ep": 513,
+    "nm": "The Marine Biologist",
+    "dte": "1994-02-10"
+  },
+  {
+    "seq": 79,
+    "ss": "5",
+    "ep": 515,
+    "nm": "The Pie",
+    "dte": "1994-02-17"
+  },
+  {
+    "seq": 80,
+    "ss": "5",
+    "ep": 516,
+    "nm": "The Stand-In",
+    "dte": "1994-02-24"
+  },
+  {
+    "seq": 81,
+    "ss": "5",
+    "ep": 517,
+    "nm": "The Wife",
+    "dte": "1994-03-17"
+  },
+  {
+    "seq": 82,
+    "ss": "5",
+    "ep": 519,
+    "nm": "The Raincoats (1)",
+    "dte": "1994-04-28"
+  },
+  {
+    "seq": 83,
+    "ss": "5",
+    "ep": 520,
+    "nm": "The Raincoats (2)",
+    "dte": "1994-04-28"
+  },
+  {
+    "seq": 84,
+    "ss": "5",
+    "ep": 518,
+    "nm": "The Fire",
+    "dte": "1994-05-05"
+  },
+  {
+    "seq": 85,
+    "ss": "5",
+    "ep": 522,
+    "nm": "The Hamptons",
+    "dte": "1994-05-12"
+  },
+  {
+    "seq": 86,
+    "ss": "5",
+    "ep": 521,
+    "nm": "The Opposite",
+    "dte": "1994-05-19"
+  },
+  {
+    "seq": 87,
+    "ss": "6",
+    "ep": 601,
+    "nm": "The Chaperone",
+    "dte": "1994-09-22"
+  },
+  {
+    "seq": 88,
+    "ss": "6",
+    "ep": 602,
+    "nm": "The Big Salad",
+    "dte": "1994-09-29"
+  },
+  {
+    "seq": 89,
+    "ss": "6",
+    "ep": 603,
+    "nm": "The Pledge Drive",
+    "dte": "1994-10-06"
+  },
+  {
+    "seq": 90,
+    "ss": "6",
+    "ep": 604,
+    "nm": "The Chinese Woman",
+    "dte": "1994-10-13"
+  },
+  {
+    "seq": 91,
+    "ss": "6",
+    "ep": 605,
+    "nm": "The Couch",
+    "dte": "1994-10-27"
+  },
+  {
+    "seq": 92,
+    "ss": "6",
+    "ep": 606,
+    "nm": "The Gymnast",
+    "dte": "1994-11-03"
+  },
+  {
+    "seq": 93,
+    "ss": "6",
+    "ep": 608,
+    "nm": "The Soup",
+    "dte": "1994-11-10"
+  },
+  {
+    "seq": 94,
+    "ss": "6",
+    "ep": 607,
+    "nm": "The Mom & Pop Store",
+    "dte": "1994-11-17"
+  },
+  {
+    "seq": 95,
+    "ss": "6",
+    "ep": 609,
+    "nm": "The Secretary",
+    "dte": "1994-12-08"
+  },
+  {
+    "seq": 96,
+    "ss": "6",
+    "ep": 612,
+    "nm": "The Race",
+    "dte": "1994-12-15"
+  },
+  {
+    "seq": 97,
+    "ss": "6",
+    "ep": 610,
+    "nm": "The Switch",
+    "dte": "1995-01-05"
+  },
+  {
+    "seq": 98,
+    "ss": "6",
+    "ep": 611,
+    "nm": "The Label Maker",
+    "dte": "1995-01-19"
+  },
+  {
+    "seq": 99,
+    "ss": "6",
+    "ep": 613,
+    "nm": "The Scofflaw",
+    "dte": "1995-01-26"
+  },
+  {
+    "seq": 100,
+    "ss": "6",
+    "ep": 623,
+    "nm": "Highlights of a Hundred (1)",
+    "dte": "1995-02-02"
+  },
+  {
+    "seq": 101,
+    "ss": "6",
+    "ep": 624,
+    "nm": "Highlights of a Hundred (2)",
+    "dte": "1995-02-02"
+  },
+  {
+    "seq": 102,
+    "ss": "6",
+    "ep": 615,
+    "nm": "The Beard",
+    "dte": "1995-02-09"
+  },
+  {
+    "seq": 103,
+    "ss": "6",
+    "ep": 614,
+    "nm": "The Kiss Hello",
+    "dte": "1995-02-16"
+  },
+  {
+    "seq": 104,
+    "ss": "6",
+    "ep": 616,
+    "nm": "The Doorman",
+    "dte": "1995-02-23"
+  },
+  {
+    "seq": 105,
+    "ss": "6",
+    "ep": 617,
+    "nm": "The Jimmy",
+    "dte": "1995-03-16"
+  },
+  {
+    "seq": 106,
+    "ss": "6",
+    "ep": 618,
+    "nm": "The Doodle",
+    "dte": "1995-04-06"
+  },
+  {
+    "seq": 107,
+    "ss": "6",
+    "ep": 619,
+    "nm": "The Fusilli Jerry",
+    "dte": "1995-04-27"
+  },
+  {
+    "seq": 108,
+    "ss": "6",
+    "ep": 620,
+    "nm": "The Diplomat's Club",
+    "dte": "1995-05-04"
+  },
+  {
+    "seq": 109,
+    "ss": "6",
+    "ep": 622,
+    "nm": "The Face Painter",
+    "dte": "1995-05-11"
+  },
+  {
+    "seq": 110,
+    "ss": "6",
+    "ep": 621,
+    "nm": "The Understudy",
+    "dte": "1995-05-18"
+  },
+  {
+    "seq": 111,
+    "ss": "7",
+    "ep": 701,
+    "nm": "The Engagement",
+    "dte": "1995-09-21"
+  },
+  {
+    "seq": 112,
+    "ss": "7",
+    "ep": 702,
+    "nm": "The Postponement",
+    "dte": "1995-09-28"
+  },
+  {
+    "seq": 113,
+    "ss": "7",
+    "ep": 703,
+    "nm": "The Maestro",
+    "dte": "1995-10-05"
+  },
+  {
+    "seq": 114,
+    "ss": "7",
+    "ep": 704,
+    "nm": "The Wink",
+    "dte": "1995-10-12"
+  },
+  {
+    "seq": 115,
+    "ss": "7",
+    "ep": 705,
+    "nm": "The Hot Tub",
+    "dte": "1995-10-19"
+  },
+  {
+    "seq": 116,
+    "ss": "7",
+    "ep": 706,
+    "nm": "The Soup Nazi",
+    "dte": "1995-11-02"
+  },
+  {
+    "seq": 117,
+    "ss": "7",
+    "ep": 707,
+    "nm": "The Secret Code",
+    "dte": "1995-11-09"
+  },
+  {
+    "seq": 118,
+    "ss": "7",
+    "ep": 708,
+    "nm": "The Pool Guy",
+    "dte": "1995-11-16"
+  },
+  {
+    "seq": 119,
+    "ss": "7",
+    "ep": 709,
+    "nm": "The Sponge",
+    "dte": "1995-12-07"
+  },
+  {
+    "seq": 120,
+    "ss": "7",
+    "ep": 710,
+    "nm": "The Gum",
+    "dte": "1995-12-14"
+  },
+  {
+    "seq": 121,
+    "ss": "7",
+    "ep": 711,
+    "nm": "The Rye",
+    "dte": "1996-01-04"
+  },
+  {
+    "seq": 122,
+    "ss": "7",
+    "ep": 712,
+    "nm": "The Caddy",
+    "dte": "1996-01-25"
+  },
+  {
+    "seq": 123,
+    "ss": "7",
+    "ep": 713,
+    "nm": "The Seven",
+    "dte": "1996-02-01"
+  },
+  {
+    "seq": 124,
+    "ss": "7",
+    "ep": 714,
+    "nm": "The Cadillac (1)",
+    "dte": "1996-02-08"
+  },
+  {
+    "seq": 125,
+    "ss": "7",
+    "ep": 717,
+    "nm": "The Cadillac (2)",
+    "dte": "1996-02-08"
+  },
+  {
+    "seq": 126,
+    "ss": "7",
+    "ep": 715,
+    "nm": "The Shower Head",
+    "dte": "1996-02-15"
+  },
+  {
+    "seq": 127,
+    "ss": "7",
+    "ep": 716,
+    "nm": "The Doll",
+    "dte": "1996-02-22"
+  },
+  {
+    "seq": 128,
+    "ss": "7",
+    "ep": 718,
+    "nm": "The Friars Club",
+    "dte": "1996-03-07"
+  },
+  {
+    "seq": 129,
+    "ss": "7",
+    "ep": 719,
+    "nm": "The Wig Master",
+    "dte": "1996-04-04"
+  },
+  {
+    "seq": 130,
+    "ss": "7",
+    "ep": 720,
+    "nm": "The Calzone",
+    "dte": "1996-04-25"
+  },
+  {
+    "seq": 131,
+    "ss": "7",
+    "ep": 721,
+    "nm": "The Bottle Deposit (1)",
+    "dte": "1996-05-02"
+  },
+  {
+    "seq": 132,
+    "ss": "7",
+    "ep": 722,
+    "nm": "The Bottle Deposit (2)",
+    "dte": "1996-05-02"
+  },
+  {
+    "seq": 133,
+    "ss": "7",
+    "ep": 723,
+    "nm": "The Wait Out",
+    "dte": "1996-05-09"
+  },
+  {
+    "seq": 134,
+    "ss": "7",
+    "ep": 724,
+    "nm": "The Invitations",
+    "dte": "1996-05-16"
+  },
+  {
+    "seq": 135,
+    "ss": "8",
+    "ep": 801,
+    "nm": "The Foundation",
+    "dte": "1996-09-19"
+  },
+  {
+    "seq": 136,
+    "ss": "8",
+    "ep": 802,
+    "nm": "The Soul Mate",
+    "dte": "1996-09-26"
+  },
+  {
+    "seq": 137,
+    "ss": "8",
+    "ep": 803,
+    "nm": "The Bizarro Jerry",
+    "dte": "1996-10-03"
+  },
+  {
+    "seq": 138,
+    "ss": "8",
+    "ep": 804,
+    "nm": "The Little Kicks",
+    "dte": "1996-10-10"
+  },
+  {
+    "seq": 139,
+    "ss": "8",
+    "ep": 805,
+    "nm": "The Package",
+    "dte": "1996-10-17"
+  },
+  {
+    "seq": 140,
+    "ss": "8",
+    "ep": 806,
+    "nm": "The Fatigues",
+    "dte": "1996-10-31"
+  },
+  {
+    "seq": 141,
+    "ss": "8",
+    "ep": 807,
+    "nm": "The Checks",
+    "dte": "1996-11-07"
+  },
+  {
+    "seq": 142,
+    "ss": "8",
+    "ep": 808,
+    "nm": "The Chicken Roaster",
+    "dte": "1996-11-14"
+  },
+  {
+    "seq": 143,
+    "ss": "8",
+    "ep": 809,
+    "nm": "The Abstinence",
+    "dte": "1996-11-21"
+  },
+  {
+    "seq": 144,
+    "ss": "8",
+    "ep": 810,
+    "nm": "The Andrea Doria",
+    "dte": "1996-12-19"
+  },
+  {
+    "seq": 145,
+    "ss": "8",
+    "ep": 811,
+    "nm": "The Little Jerry",
+    "dte": "1997-01-09"
+  },
+  {
+    "seq": 146,
+    "ss": "8",
+    "ep": 813,
+    "nm": "The Money",
+    "dte": "1997-01-16"
+  },
+  {
+    "seq": 147,
+    "ss": "8",
+    "ep": 812,
+    "nm": "The Comeback",
+    "dte": "1997-01-30"
+  },
+  {
+    "seq": 148,
+    "ss": "8",
+    "ep": 814,
+    "nm": "The Van Buren Boys",
+    "dte": "1997-02-06"
+  },
+  {
+    "seq": 149,
+    "ss": "8",
+    "ep": 815,
+    "nm": "The Susie",
+    "dte": "1997-02-13"
+  },
+  {
+    "seq": 150,
+    "ss": "8",
+    "ep": 816,
+    "nm": "The Pothole",
+    "dte": "1997-02-20"
+  },
+  {
+    "seq": 151,
+    "ss": "8",
+    "ep": 817,
+    "nm": "The English Patient",
+    "dte": "1997-03-13"
+  },
+  {
+    "seq": 152,
+    "ss": "8",
+    "ep": 818,
+    "nm": "The Nap",
+    "dte": "1997-04-10"
+  },
+  {
+    "seq": 153,
+    "ss": "8",
+    "ep": 819,
+    "nm": "The Yada Yada",
+    "dte": "1997-04-24"
+  },
+  {
+    "seq": 154,
+    "ss": "8",
+    "ep": 820,
+    "nm": "The Millennium",
+    "dte": "1997-05-01"
+  },
+  {
+    "seq": 155,
+    "ss": "8",
+    "ep": 821,
+    "nm": "The Muffin Tops",
+    "dte": "1997-05-08"
+  },
+  {
+    "seq": 156,
+    "ss": "8",
+    "ep": 822,
+    "nm": "The Summer of George",
+    "dte": "1997-05-15"
+  },
+  {
+    "seq": 157,
+    "ss": "9",
+    "ep": 901,
+    "nm": "The Butter Shave",
+    "dte": "1997-09-25"
+  },
+  {
+    "seq": 158,
+    "ss": "9",
+    "ep": 902,
+    "nm": "The Voice",
+    "dte": "1997-10-02"
+  },
+  {
+    "seq": 159,
+    "ss": "9",
+    "ep": 903,
+    "nm": "The Serenity Now",
+    "dte": "1997-10-09"
+  },
+  {
+    "seq": 160,
+    "ss": "9",
+    "ep": 904,
+    "nm": "The Blood",
+    "dte": "1997-10-16"
+  },
+  {
+    "seq": 161,
+    "ss": "9",
+    "ep": 905,
+    "nm": "The Junk Mail",
+    "dte": "1997-10-30"
+  },
+  {
+    "seq": 162,
+    "ss": "9",
+    "ep": 906,
+    "nm": "The Merv Griffin Show",
+    "dte": "1997-11-06"
+  },
+  {
+    "seq": 163,
+    "ss": "9",
+    "ep": 907,
+    "nm": "The Slicer",
+    "dte": "1997-11-13"
+  },
+  {
+    "seq": 164,
+    "ss": "9",
+    "ep": 908,
+    "nm": "The Betrayal",
+    "dte": "1997-11-20"
+  },
+  {
+    "seq": 165,
+    "ss": "9",
+    "ep": 909,
+    "nm": "The Apology",
+    "dte": "1997-12-11"
+  },
+  {
+    "seq": 166,
+    "ss": "9",
+    "ep": 910,
+    "nm": "The Strike",
+    "dte": "1997-12-18"
+  },
+  {
+    "seq": 167,
+    "ss": "9",
+    "ep": 911,
+    "nm": "The Dealership",
+    "dte": "1998-01-08"
+  },
+  {
+    "seq": 168,
+    "ss": "9",
+    "ep": 912,
+    "nm": "The Reverse Peephole",
+    "dte": "1998-01-15"
+  },
+  {
+    "seq": 169,
+    "ss": "9",
+    "ep": 913,
+    "nm": "The Cartoon",
+    "dte": "1998-01-29"
+  },
+  {
+    "seq": 170,
+    "ss": "9",
+    "ep": 914,
+    "nm": "The Strongbox",
+    "dte": "1998-02-05"
+  },
+  {
+    "seq": 171,
+    "ss": "9",
+    "ep": 915,
+    "nm": "The Wizard",
+    "dte": "1998-02-26"
+  },
+  {
+    "seq": 172,
+    "ss": "9",
+    "ep": 916,
+    "nm": "The Burning",
+    "dte": "1998-03-19"
+  },
+  {
+    "seq": 173,
+    "ss": "9",
+    "ep": 917,
+    "nm": "The Bookstore",
+    "dte": "1998-04-09"
+  },
+  {
+    "seq": 174,
+    "ss": "9",
+    "ep": 918,
+    "nm": "The Frogger",
+    "dte": "1998-04-23"
+  },
+  {
+    "seq": 175,
+    "ss": "9",
+    "ep": 919,
+    "nm": "The Maid",
+    "dte": "1998-04-30"
+  },
+  {
+    "seq": 176,
+    "ss": "9",
+    "ep": 920,
+    "nm": "The Puerto Rican Day",
+    "dte": "1998-05-07"
+  },
+  {
+    "seq": 177,
+    "ss": "9",
+    "ep": 921,
+    "nm": "The Clip Show (1) (a.k.a. The Chronicle (1))",
+    "dte": "1998-05-14"
+  },
+  {
+    "seq": 178,
+    "ss": "9",
+    "ep": 922,
+    "nm": "The Clip Show (2) (a.k.a. The Chronicle (2))",
+    "dte": "1998-05-14"
+  },
+  {
+    "seq": 179,
+    "ss": "9",
+    "ep": 923,
+    "nm": "The Finale (1)",
+    "dte": "1998-05-14"
+  },
+  {
+    "seq": 180,
+    "ss": "9",
+    "ep": 924,
+    "nm": "The Finale (2)",
+    "dte": "1998-05-14"
+  },
+  {
+    "seq": 181,
+    "ss": "9",
+    "ep": 925,
+    "nm": "The Seinfeld Story",
+    "dte": "2004-11-25"
+  }
+]
+
