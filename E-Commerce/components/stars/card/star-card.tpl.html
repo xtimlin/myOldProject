@@ -1,0 +1,47 @@
+<md-card ng-repeat="star in stars | 
+					filter: starsFilter |
+					filter: category" flex="30">
+   
+	<img ng-src="{{ star.image }}"/> 
+	<md-card-content>
+		<div class="star-info" ng-show="!showContact">
+			<h2 class="md-title">{{ star.title }}</h2>
+			<h2>{{ star.posted | date}}</h2>
+			<h3>{{ star.price | currency }}</h3>
+			<p>{{ star.description}}</p>
+		</div>
+
+		<div class="star-contact" ng-show="showContact">
+			<p><md-icon class="mdi mdi-account"></md-icon>{{ star.contact.name}}</p>
+			<p><md-icon class="mdi mdi-phone"></md-icon>{{ star.contact.phone}}</p>
+			<p><md-icon class="mdi mdi-email"></md-icon>{{ star.contact.email}}</p>
+		</div>
+
+		<div layout="row">
+			<md-button 
+				ng-click="showContact = true"
+				ng-show="!showContact">Contact
+			</md-button>
+			<md-button 
+				ng-click="showContact = false"
+				ng-show="showContact">Details
+			</md-button>
+			<md-button 
+				ng-click="showAdmin = true"
+				ng-show="!showAdmin">Admin
+			</md-button>
+			<md-button 
+				ng-click="showAdmin = false"
+				ng-show="showAdmin">Close
+			</md-button>
+		</div>
+
+		<div class="star-admin" ng-if="showAdmin">
+			<h3>Admin</h3>
+			<div layout="row">
+				<md-button ng-click="vm.editStar(star)" class="md-primary">Edit</md-button>
+				<md-button ng-click="vm.deleteStar($event, star)" class="md-warn">Delete</md-button>
+			</div>
+		</div>
+	</md-card-content>
+</md-card>
