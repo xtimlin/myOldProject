@@ -1,14 +1,4 @@
-# Authentication-Server
 
-### Software for develop
-* Sublime Text 3, build 3126 (develop)
-* Google Chrome, Version 57.0.2987.98 (64-bit) (testing Browser)
-* Node, v7.4.0
-* MongoDB, v3.4.2
-* Robomongo 1.0.0-RC1, for MongoDB database data testing
-
-### Operation System
-* Microsoft Windows 10 Pro, 64 bit, Version	1607, OS build 14393.693
 
 ### Any design decisions or behavioral clarifications that illustrate how your program functions and why 
 * Setting up backend server with Node, Express(server support), MongoDB(database support), and Morgan(log data from backend console)
