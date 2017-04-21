@@ -5,5 +5,4 @@
 * [Authentication-Server](https://authentication-server-lin.herokuapp.com/#!/)
 * [E-Commerce](https://ecommerce-lin.herokuapp.com/)
 * [Movie List](https://movie-demo.herokuapp.com/)
-* [Stock Demo](https://stock-demo.herokuapp.com/)
-* [chart Demo](https://chart-demo.herokuapp.com/)
+* [Brithday Chart](https://brithday-chart.herokuapp.com/)
