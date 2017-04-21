@@ -1,0 +1,49 @@
+body{
+  min-width: 800px;
+}
+.container{
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+
+h1{
+  text-align: center;
+}
+
+#brithdayChart{
+  outline: 30px solid lightblue;
+}
+
+#chart{
+  top: 31px; 
+  width: 90%; 
+  margin: 30px auto;
+  
+}
+#option{
+  text-align: center;
+}
+
+
+#input{
+  
+  border:20px solid lightgreen;
+  width: 40%;
+  margin: auto;
+  
+}
+label{
+    display:inline-block;
+    width:70px;
+}
+button{
+    margin-top:20px;
+    position:relative;
+}
+
+@media screen and (max-width: 600px) {
+  
+}
