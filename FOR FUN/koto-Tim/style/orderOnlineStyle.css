@@ -1,0 +1,56 @@
+.Category{
+	margin: auto;
+}
+
+.lastCategoryItem{
+	margin-bottom: 80px;
+}
+
+.CategoryBtn{
+	width: auto;
+	vertical-align: middle;
+	border: 2px solid #a1a1a1;
+	border-radius: 5px;
+}
+
+.item{
+	margin: 0 auto;
+}
+
+#Lunch_Special{
+	list-style-type: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+.orderListBox{
+	border: 2px solid lightgreen;
+	background-color: white;
+}
+
+#emptyCart{
+	width: 80%;
+	margin:20px auto;
+	padding: 0 auto;
+	height: 100px;
+}
+
+#emptyCart h4{
+	text-align: center;
+}
+
+#totalPriceInfo{
+	margin-left: 70%;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+html, body{
+	width: 100%;
+	background-image: url("../images/background/orderonline.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

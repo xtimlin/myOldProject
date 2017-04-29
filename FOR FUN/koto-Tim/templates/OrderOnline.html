@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Koto Order Online</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../style/templeStyle.css">
+    <link rel="stylesheet" type="text/css" href="../style/orderOnlineStyle.css">
+</head>
+<body>
+  	<div id="logo">
+      <img src="../images/png/logo_page_1.png" />
+    </div>
+
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-center" >
+              <li class="presentation"><a href="../index.html">Home</a></li>
+              <li class="presentation"><a href="Menu.html">Menu</a></li>
+              <li class="presentation"><a href="Gallery.html">Gallery</a></li>
+              <li class="presentation"><a href="Contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-12 col-md-7">
+
+          <div class="row">
+            <h2 class="col-xs-9 Category" >Lunch Special</h2>
+            <button id="Lunch_SpecialBtn" class="col-xs-3 CategoryBtn" onclick="dropDown('Lunch_SpecialList', 'Lunch_SpecialBtn')">+</button>
+          </div>
+          
+          <div>
+            <ul id="Lunch_SpecialList" style="display: none">
+              
+              <li class="row item">
+                <div class="col-xs-4">
+                  <p>Sushi Special</p>
+                </div>
+                <div class="col-xs-4">
+                  <p>$14</p>
+                </div>
+                <div class="col-xs-2">
+                  <button onclick="addItemToOrder('Sushi_Special')">Order</button>
+                </div>
+              </li>
+
+              <li class="row item">
+                <div class="col-xs-4">
+                  <p>Sashimi Special</p>
+                </div>
+                <div class="col-xs-4">
+                  <p>$14</p>
+                </div>
+                <div class="col-xs-2">
+                  <button onclick="addItemToOrder('Sashimi_Special')">Order</button>
+                </div>
+              </li>
+
+              <li class="row item">
+                <div class="col-xs-4">
+                  <p>Rolls Special</p>
+                </div>
+                <div class="col-xs-4">
+                  <p>$14</p>
+                </div>
+                <div class="col-xs-2">
+                  <button onclick="addItemToOrder('Rolls_Special')">Order</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <hr>
+
+          <div class="row">
+            <h2 class="col-xs-9 Category" >Sushi & Sashimi</h2>
+            <button id="Sushi_SashimiBtn" class="col-xs-3 CategoryBtn" onclick="dropDown('Sushi_SashimiList', 'Sushi_SashimiBtn')">+</button>
+          </div>
+          
+          <div>
+            <ul id="Sushi_SashimiList" style="display: none">
+              
+              <li class="row item">
+                <div class="col-xs-4">
+                  <p>Yellow Tail</p>
+                </div>
+                <div class="col-xs-4">
+                  <p>$6</p>
+                </div>
+                <div class="col-xs-2">
+                  <button onclick="addItemToOrder('Yellow_Special')">Order</button>
+                </div>
+              </li>
+
+              <li class="row item">
+                <div class="col-xs-4">
+                  <p>Eel</p>
+                </div>
+                <div class="col-xs-4">
+                  <p>$6</p>
+                </div>
+                <div class="col-xs-2">
+                  <button onclick="addItemToOrder('Eel')">Order</button>
+                </div>
+              </li>
+
+              <li class="row item">
+                <div class="col-xs-4">
+                  <p>Toro</p>
+                </div>
+                <div class="col-xs-4">
+                  <p>$14</p>
+                </div>
+                <div class="col-xs-2">
+                  <button onclick="addItemToOrder('Toro')">Order</button>
+                </div>
+              </li>
+
+              
+            </ul>
+          </div>
+          <hr>
+
+          <div class="row">
+            <h2 class="col-xs-9 Category" >Signature Rolls</h2>
+            <button id="Signature_RollsBtn" class="col-xs-3 CategoryBtn" onclick="dropDown('Signature_RollsList', 'Signature_RollsBtn')">+</button>
+          </div>
+          
+          <div class="lastCategoryItem">
+            <ul id="Signature_RollsList" style="display: none">
+              
+              <li class="row item">
+                <div class="col-xs-4">
+                  <p>White Swan</p>
+                </div>
+                <div class="col-xs-4">
+                  <p>$18</p>
+                </div>
+                <div class="col-xs-2">
+                  <button onclick="addItemToOrder('White_Swan')">Order</button>
+                </div>
+              </li>
+
+              <li class="row item">
+                <div class="col-xs-4">
+                  <p>Angel Fest</p>
+                </div>
+                <div class="col-xs-4">
+                  <p>$15</p>
+                </div>
+                <div class="col-xs-2">
+                  <button onclick="addItemToOrder('Angel_Fest')">Order</button>
+                </div>
+              </li>
+
+              <li class="row item">
+                <div class="col-xs-4">
+                  <p>J.B. 77</p>
+                </div>
+                <div class="col-xs-4">
+                  <p>$15</p>
+                </div>
+                <div class="col-xs-2">
+                  <button onclick="addItemToOrder('JB_77')">Order</button>
+                </div>
+              </li>
+
+              
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="col-sm-12 col-md-5 orderListBox">
+
+          <div id="emptyCart">
+            <h4>Cart is Empty</h4>
+          </div class="container">
+
+          <div id="orderItem" class="row" style="display: none;">
+            
+            <div >
+              <div class="col-xs-5">Item</div>
+              <div class="col-xs-3">Qty</div>
+              <div class="col-xs-2">Price</div>
+              <div class="col-xs-1">Delete</div>
+            </div>
+
+            <hr>
+
+            <div id="Sushi_Special" style="display: none">
+              <div class="col-xs-5">Sushi Special</div>
+              <div class="col-xs-3">
+                <span class="glyphicon glyphicon-minus" aria-hidden="true" onclick="minus('Sushi_Special')"></span>
+                <span id="Sushi_SpecialQty">1</span>
+                <span class="glyphicon glyphicon-plus" aria-hidden="true" onclick="plus('Sushi_Special')"></span>
+              </div>
+
+              <div id="Sushi_SpecialPrice" class="col-xs-2">$14</div>
+              <div class="col-xs-1">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true" onclick="remove('Sushi_Special')"></span>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div id="Sashimi_Special" style="display: none">
+              <div class="col-xs-5">Sashimi Special</div>
+              <div class="col-xs-3">
+                <span class="glyphicon glyphicon-minus" aria-hidden="true" onclick="minus('Sashimi_Special')"></span>
+                <span id="Sashimi_SpecialQty">1</span>
+                <span class="glyphicon glyphicon-plus" aria-hidden="true" onclick="plus('Sashimi_Special')"></span>
+              </div>
+
+              <div id="Sashimi_SpecialPrice" class="col-xs-2">$14</div>
+              <div class="col-xs-1">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true" onclick="remove('Sashimi_Special')"></span>
+              </div>
+            </div>
+
+
+            <div id="Rolls_Special" style="display: none">
+              <div class="col-xs-5">Rolls Special</div>
+              <div class="col-xs-3">
+                <span class="glyphicon glyphicon-minus" aria-hidden="true" onclick="minus('Rolls_Special')"></span>
+                <span id="Rolls_SpecialQty">1</span>
+                <span class="glyphicon glyphicon-plus" aria-hidden="true" onclick="plus('Rolls_Special')"></span>
+              </div>
+
+              <div id="Rolls_SpecialPrice" class="col-xs-2">$14</div>
+              <div class="col-xs-1">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true" onclick="remove('Rolls_Special')"></span>
+              </div>
+            </div>
+
+            <div id="Yellow_Special" style="display: none">
+              <div class="col-xs-5">Yellow Special</div>
+              <div class="col-xs-3">
+                <span class="glyphicon glyphicon-minus" aria-hidden="true" onclick="minus('Yellow_Special')"></span>
+                <span id="Yellow_SpecialQty">1</span>
+                <span class="glyphicon glyphicon-plus" aria-hidden="true" onclick="plus('Yellow_Special')"></span>
+              </div>
+
+              <div id="Yellow_SpecialPrice" class="col-xs-2">$6</div>
+              <div class="col-xs-1">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true" onclick="remove('Yellow_Special')"></span>
+              </div>
+            </div>
+
+            <div id="Eel" style="display: none">
+              <div class="col-xs-5">Eel</div>
+              <div class="col-xs-3">
+                <span class="glyphicon glyphicon-minus" aria-hidden="true" onclick="minus('Eel')"></span>
+                <span id="EelQty">1</span>
+                <span class="glyphicon glyphicon-plus" aria-hidden="true" onclick="plus('Eel')"></span>
+              </div>
+
+              <div id="EelPrice" class="col-xs-2">$6</div>
+              <div class="col-xs-1">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true" onclick="remove('Eel')"></span>
+              </div>
+            </div>
+
+            <div id="Toro" style="display: none">
+              <div class="col-xs-5">Toro</div>
+              <div class="col-xs-3">
+                <span class="glyphicon glyphicon-minus" aria-hidden="true" onclick="minus('Toro')"></span>
+                <span id="ToroQty">1</span>
+                <span class="glyphicon glyphicon-plus" aria-hidden="true" onclick="plus('Toro')"></span>
+              </div>
+
+              <div id="ToroPrice" class="col-xs-2">$14</div>
+              <div class="col-xs-1">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true" onclick="remove('Toro')"></span>
+              </div>
+            </div>
+
+            <div id="White_Swan" style="display: none">
+              <div class="col-xs-5">White Swan</div>
+              <div class="col-xs-3">
+                <span class="glyphicon glyphicon-minus" aria-hidden="true" onclick="minus('White_Swan')"></span>
+                <span id="White_SwanQty">1</span>
+                <span class="glyphicon glyphicon-plus" aria-hidden="true" onclick="plus('White_Swan')"></span>
+              </div>
+
+              <div id="White_SwanPrice" class="col-xs-2">$18</div>
+              <div class="col-xs-1">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true" onclick="remove('White_Swan')"></span>
+              </div>
+            </div>
+
+            <div id="Angel_Fest" style="display: none">
+              <div class="col-xs-5">Angel Fest</div>
+              <div class="col-xs-3">
+                <span class="glyphicon glyphicon-minus" aria-hidden="true" onclick="minus('Angel_Fest')"></span>
+                <span id="Angel_FestQty">1</span>
+                <span class="glyphicon glyphicon-plus" aria-hidden="true" onclick="plus('Angel_Fest')"></span>
+              </div>
+
+              <div id="Angel_FestPrice" class="col-xs-2">$15</div>
+              <div class="col-xs-1">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true" onclick="remove('Angel_Fest')"></span>
+              </div>
+            </div>
+
+            <div id="JB_77" style="display: none">
+              <div class="col-xs-5">J.B. 77</div>
+              <div class="col-xs-3">
+                <span class="glyphicon glyphicon-minus" aria-hidden="true" onclick="minus('JB_77')"></span>
+                <span id="JB_77Qty">1</span>
+                <span class="glyphicon glyphicon-plus" aria-hidden="true" onclick="plus('JB_77')"></span>
+              </div>
+
+              <div id="JB_77Price" class="col-xs-2">$15</div>
+              <div class="col-xs-1">
+                <span class="glyphicon glyphicon-remove" aria-hidden="true" onclick="remove('JB_77')"></span>
+              </div>
+            </div>
+
+            
+          </div>
+
+          <hr>
+            <div class="row">
+              <div id="totalPriceInfo" class="container" >
+                <p>Total: $<span id="totalPrice">0</span></p>
+                <button>Check</button>
+              </div>
+            </div>
+            
+
+        </div>
+
+      </div>
+    </div>
+    
+    <footer>
+      <div class="container">
+        <h4>All Rights Reserved, Tim Lin</h4>
+      </div>
+    </footer>
+
+
+    <script type="text/javascript" src="../script/orderOnline.js"></script>
+</body>
+</html>

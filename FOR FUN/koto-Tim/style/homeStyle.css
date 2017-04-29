@@ -1,0 +1,104 @@
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+.item img{
+  max-height: 390px;
+}
+.carousel-caption{
+  font-color:gray;
+}
+.pages{
+  display: inline-block;
+  width: 24%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.centerNavItem{
+  text-align: center;
+}
+
+
+
+#bottomLink{
+  margin-top: 30px;
+  text-align: center;
+} 
+
+
+
+
+
+#businessinfo{
+  position: relative;
+}
+
+#address{
+  position: absolute; 
+  bottom: 0; 
+  left:0;
+}
+
+#address+div{
+  text-align: left;
+}
+
+#logo{
+  left:25%;
+}
+
+#logo img{
+  width: 60%; 
+  margin: auto; 
+  display: block;
+}
+
+
+#businessHour{
+  position: absolute;
+  bottom: 0; 
+  right: 0;
+}
+
+#businessHour div{
+  float: left;
+}
+
+#businessHour div p{
+  text-align: center;
+}
+
+ol{
+  list-style-type: none;
+}
+
+#bottomLink div a img{
+  width:200px; 
+  height:150px;
+}
+
+body{
+  background-image: url("../images/background/home.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+
+@media screen and (max-width: 1001px) {
+   #addressContext, #businessHour {
+      display: none !important;
+   }
+
+   #logo{
+    /*margin: 0 auto;*/
+    float: left;
+    
+   }
+
+   #bottomLink div a img{
+      width: auto;
+      margin: 0 auto;
+   }
+}

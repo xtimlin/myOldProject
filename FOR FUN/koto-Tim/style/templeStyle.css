@@ -1,0 +1,39 @@
+html{
+	height: 100%;
+	box-sizing: border-box;
+}
+
+body{
+	position: relative;
+  	margin: 0;
+  	padding-bottom: 6rem;
+  	min-height: 100%;
+  	/*min-width: 340px;*/
+
+
+  	
+
+
+	
+}
+
+#logo{
+	margin: 0 auto; 
+	text-align: center;
+}
+
+#logo img{
+	width: 300px;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%; 
+	background-color: lightgray;
+}
+
+footer .container h4{
+	text-align: center;
+}
+

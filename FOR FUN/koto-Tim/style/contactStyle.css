@@ -1,0 +1,35 @@
+#addressInfo{
+	margin-left: 30%;
+}
+
+#addressInfo h3{
+	color: red;
+}
+
+#addressInfo p{
+	margin-left: 10%;
+}
+
+#map-canvas {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+#businessCard{
+	width: 100%;
+}
+#businessCard img{
+	width: 100%;
+	display:block;
+	margin: 20px auto;
+}
+
+body{
+	background-image: url("../images/background/contact.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	/*color: #72af2c;*/
+	font-weight: bold;
+}

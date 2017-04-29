@@ -1,0 +1,16 @@
+.row img{
+	width: 100%;
+	height: 300px;
+	border: 2px solid lightgreen;
+	margin-top: 20px;
+}
+
+#images div	img{
+	background-color: white;
+}
+
+body{
+	background-image: url("../images/background/gallery.jpg");
+	
+	background-size: 100% 100%;
+}
