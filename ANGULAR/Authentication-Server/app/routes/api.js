@@ -11,8 +11,8 @@ module.exports = function(router){
 	var options = {
 		//sendgrid ACCOUNT INFORMATION
 	  auth: {
-	    api_user: 'xhlin1217',
-	    api_key: '***'
+	    api_user: 'username',
+	    api_key: 'password'
 	  }
 	}
 
