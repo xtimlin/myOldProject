@@ -9,4 +9,4 @@
 
 
 ### July-17, 2019
-- Move old side project to new account.
+- Move project to new account.
